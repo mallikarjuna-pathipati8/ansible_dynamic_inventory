@@ -12,5 +12,5 @@ hostnames:
 
 keyed_groups:
   - key: tags.Name
-    prefix: roboshop
+    prefix: ""
     separator: "_"
