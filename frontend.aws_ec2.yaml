@@ -5,10 +5,12 @@ regions:
 
 filters:
   instance-state-name: running
-  tag:Name: roboshop-frontend 
-  
+  "tag:Name": roboshop-frontend
+
 hostnames:
   - private-ip-address
 
-keyed-groups: 
+keyed_groups:
   - key: tags.Name
+    prefix: roboshop
+    separator: "_"
